@@ -26,3 +26,19 @@ h1 {
   font-size: 90px;
   margin-top: -75px;
 }
+
+@media all and (min-width: 0px) and (max-width: 850px) {
+  .logodisplay {
+    height: 250px;
+    width: 250px;
+  }
+
+  .App {
+    height: 900px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: -40px;
+  }
+}
